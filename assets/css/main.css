@@ -1,0 +1,268 @@
+.top {
+  background: linear-gradient(#ffc52f, #24dd6e);
+  position: relative;
+  width: 100%;
+  height: 780px;
+}
+header {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  left: 0px;
+  padding: 20px 5%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+.left-nav,
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0px 15px;
+  list-style: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+header a,
+.signup-btn {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.signup-btn {
+  background-color: #fffe00;
+  height: 55px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+.signup-btn > a {
+  color: black !important;
+}
+
+.signup-btn > a:hover {
+  color: green !important;
+}
+
+header h2 {
+  margin-right: 50px;
+  font-size: 28px;
+}
+
+.top-container {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 976px;
+}
+
+.top-container-title {
+  font-size: 60px;
+  color: white;
+  line-height: 82px;
+  padding-right: 20px;
+  margin-top: 150px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.top-container-text {
+  font-size: 26px;
+  color: white;
+  font-weight: 500;
+  line-height: 30px;
+  width: 900px;
+  padding-bottom: 30px;
+}
+
+.getstarted-btn {
+  background-color: #fffe00;
+  width: 205px;
+  height: 60px;
+  margin-right: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.find-out-more-btn {
+  background-color: white;
+  width: 205px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+.top-container a {
+  color: black;
+}
+
+.top-container a:hover {
+  color: gray;
+}
+
+.top img {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  top: 20%;
+  right: 0;
+}
+
+.section-2 {
+  text-align: center;
+}
+.section-2-container {
+  padding: 10% 27%;
+}
+.section-2-container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 82px;
+}
+.section-2-container p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #969696;
+}
+
+.topics {
+  text-align: center;
+  margin: 3%;
+  position: relative;
+}
+
+.topics h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 82px;
+}
+.topics p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #969696;
+  line-height: 33px;
+}
+.topics-img {
+  padding-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-img {
+  position: relative;
+}
+
+.play-img .play-icon {
+  position: absolute;
+  top: 35%;
+  right: -8%;
+}
+/* loi thieu height img */
+
+.testimonials {
+  margin-top: 8%;
+  color: white;
+  background-image: url("../image/Rectangle\ 5.png");
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+.testimonials h2 {
+  padding: 2% 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 82px;
+}
+.testimonials p {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 47px;
+  padding: 0 22%;
+}
+.star {
+  padding: 2% 0;
+}
+.left-icon {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  transform: rotate(180deg);
+}
+.right-icon {
+  position: absolute;
+  right: 10%;
+  top: 45%;
+}
+
+.register {
+  background: linear-gradient(#b6f7f4, rgb(3, 90, 34));
+}
+
+.register p {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  color: white;
+  padding-right: 20%;
+}
+
+.register-container {
+  display: flex;
+  padding: 5% 10%;
+}
+.register button {
+  background-color: #fffe00;
+  width: 250px;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+}
+.register a {
+  color: black;
+}
+.register a:hover {
+  color: gray;
+}
+
+.bot {
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.bot h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+.bot ul {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  width: 40%;
+  margin-left: 5%;
+}
+.bot li {
+  margin-left: 5%;
+  list-style: none;
+}
+.bot a{
+  color: black;
+}
+.bot a:hover{
+  color: gray;
+}
